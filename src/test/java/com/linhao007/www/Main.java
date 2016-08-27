@@ -5,6 +5,8 @@ import com.linhao007.www.TemplatePattern.BaseTemplate;
 import com.linhao007.www.TemplatePattern.SpeakTemplate;
 import org.junit.Test;
 
+import java.util.concurrent.atomic.AtomicLong;
+
 /**
  * Created by www.linhao007.com on 2016-6-22.
  */
@@ -25,5 +27,7 @@ public class Main {
     public void testTemplat(){
         BaseTemplate baseTemplate = new SpeakTemplate();
         baseTemplate.sayMessage();
+        AtomicLong next = new AtomicLong();
+        next.getAndIncrement();
     }
 }
