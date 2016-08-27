@@ -4,7 +4,7 @@ package com.linhao007.www.GenericParadigm;
 import java.util.ArrayList;
 
 /**
- * Created by daojia on 2016-8-25.
+ * Created by www.linhao007.com on 2016-8-25.
  */
 public class LinHaoList<T extends Number> extends ArrayList<T> {
 

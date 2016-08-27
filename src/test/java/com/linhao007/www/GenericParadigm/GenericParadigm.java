@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by daojia on 2016-8-25.
+ * Created by www.linhao007.com on 2016-8-25.
  */
 public class GenericParadigm {
     List<Number> list = new ArrayList<Number>();

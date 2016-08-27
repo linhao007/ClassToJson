@@ -1,7 +1,7 @@
 package com.linhao007.www.TemplatePattern;
 
 /**
- * Created by daojia on 2016-8-24.
+ * Created by www.linhao007.com on 2016-8-24.
  */
 public class SpeakTemplate extends BaseTemplate{
     @Override
