@@ -30,4 +30,9 @@ public class Main {
         AtomicLong next = new AtomicLong();
         next.getAndIncrement();
     }
+    @Test
+    public void testString(){
+        String s="linhao007.com";
+        s.intern();
+    }
 }
