@@ -9,10 +9,11 @@ import java.util.Map;
  */
 public class ClassToJsonMain {
     public static void main(String[] args) throws IllegalAccessException {
-        Map map = new HashMap<String,String>();
-        map.put("name","www.linhao007.com ");
-        map.put("age","18");
-        map.put("sex","man");
-        System.out.println("map转换成json格式："+ JsonUtils.getJsonString(map));
+        Map map = new HashMap<String, String>();
+        map.put("name", "www.linhao007.com ");
+        map.put("age", "18");
+        map.put("sex", "man");
+        map.put("length", "1.28");
+        System.out.println("map转换成json格式：" + JsonUtils.getJsonString(map));
     }
 }
